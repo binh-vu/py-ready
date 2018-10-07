@@ -6,7 +6,7 @@ from setuptools import find_packages
 
 setup(
     name='pyread',
-    version='0.0.1',
+    version='0.0.2',
     description='Checking if services are up and running',
     author='Binh Vu',
     author_email='binhlvu@gmail.com',
