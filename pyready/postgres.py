@@ -6,7 +6,7 @@ if __name__ == '__main__':
     import psycopg2
 
     conn = sys.argv[1]
-    n_retries = sys.argv[2]
+    n_retries = int(sys.argv[2])
 
     # conn = "host=localhost port=5433 dbname=dcat user=dcat_user password=d393c705ea42"
     # n_retries = 10
